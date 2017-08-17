@@ -1,0 +1,183 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+.search_div {
+	width: 300px;
+}
+
+.green_box {
+	width: 300px;
+	border: 2px solid #00c73c;
+	height: 43px;
+}
+
+.search_result {
+	width: 296px;
+	border: 2px solid #00c73c;
+	height: 330px;
+	background-color: white;
+	margin-top: 25px;
+	display: none;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+#result {
+	overflow-y: scroll;
+	height: 290px;
+}
+
+.search_banner_container {
+	width: 296px;
+	height: 30px;
+	/*overflow:hidden;*/
+	position: relative;
+	float: left;
+}
+
+.search_banner_wrapper {
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 296px;
+	float: left;
+	position: absolute;
+	cursor: pointer;
+}
+
+.selected_type {
+	padding-bottom: 6px;
+	border-bottom: 2px solid #00c73c;
+}
+
+.search_type {
+	position: absolute;
+	border: 1px solid black;
+}
+
+.sub_type {
+	margin-top: 11px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+.go_to_web {
+	float: right;
+	padding-right: 16px;
+}
+
+.sub_type_wrapper {
+	width: 100px;
+	display: none;
+	position: absolute;
+}
+
+.m_section {
+	margin-left: 10px;
+	margin-top: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.row {
+	font-size: 16px;
+	font-weight: 500;
+	width: 100%;
+	margin-top: 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.col {
+	/* width:100%; */
+	width: 280px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline;
+}
+
+.col_8_12 {
+	/* width:66.6666%; */
+	width: 186.6666px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline;
+}
+
+.col_7_12 {
+	/* width:58.3333%; */
+	width: 163.3333px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline;
+}
+
+.col_6_12 {
+	/* width:50%; */
+	width: 140px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.col_5_12 {
+	/* width:41.6666%; */
+	width: 116.6666px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.col_4_12 {
+	/* width:33.3333%; */
+	width: 93.3333px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.col_3_12 {
+	/* width:25%; */
+	width: 70px;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.author {
+	color: #808080;
+}
+
+.title {
+	/*    border-bottom:1px solid #808080;*/
+	
+}
+
+.link a {
+	color: #00c73c;
+}
+
+/* ul{
+    list-style-type:none;
+    margin:0;
+    padding:0
+}
+
+li{
+    display:inline
+} */
+/* border: 2px solid #00c73c;
+
+
+
+.search .green_window {
+    display: inline-block;
+    width: 474px;
+    height: 41px;
+    border: 2px solid #00c73c;
+    background: #fff;
+} */

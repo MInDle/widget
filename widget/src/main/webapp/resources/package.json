@@ -1,0 +1,28 @@
+{
+  "name": "weather_widget",
+  "version": "1.0.0",
+  "description": "Web Pack Test",
+  "main": "weather_widget_bundle.js",
+  "dependencies": {
+    "chart.js": "^2.6.0",
+    "css-loader": "^0.28.4",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "style-loader": "^0.18.2"
+  },
+  "devDependencies": {
+    "duplicate-package-checker-webpack-plugin": "^1.2.5",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --progress --inline",
+    "watch": "webpack -d --watch",
+    "dev": "webpack -d",
+    "prod": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CS",
+  "license": "ISC"
+}
